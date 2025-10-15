@@ -33,7 +33,7 @@ class Texture:
         return self._image_data
     
     def update_data(self, new_data: ImageData):
-        self.__image_data = new_data
+        self._image_data = new_data
 
     def set_pixel(self, x, y, color):
         self._image_data.set_pixel(x, y, color)
